@@ -6,3 +6,8 @@
 *.csx      text diff=csharp
 *.sln      text eol=crlf merge=union
 *.csproj   text merge=union
+
+*.cs linguist-detectable=true
+*.js linguist-detectable=false
+*.html linguist-detectable=false
+*.xml linguist-detectable=false

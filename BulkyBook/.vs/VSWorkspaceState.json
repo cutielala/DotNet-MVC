@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Controllers"
+    "\\Controllers",
+    "\\Views",
+    "\\Views\\Shared"
   ],
-  "SelectedNode": "\\Controllers\\CategoriesTempController.cs",
+  "SelectedNode": "\\Views\\Shared\\_Notification.cshtml",
   "PreviewInSolutionExplorer": false
 }

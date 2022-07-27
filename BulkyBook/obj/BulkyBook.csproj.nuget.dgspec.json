@@ -1,17 +1,101 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cutie\\Git\\source\\in-proccess\\BulkyBook\\BulkyBook.csproj": {}
+    "C:\\Users\\cutie\\Git\\source\\DotNet-MVC-repos\\DotNet-MVC\\BulkyBook\\BulkyBook.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cutie\\Git\\source\\in-proccess\\BulkyBook\\BulkyBook.csproj": {
+    "C:\\Users\\cutie\\Git\\source\\DotNet-MVC-repos\\DotNet-MVC\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cutie\\Git\\source\\in-proccess\\BulkyBook\\BulkyBook.csproj",
-        "projectName": "BulkyBook",
-        "projectPath": "C:\\Users\\cutie\\Git\\source\\in-proccess\\BulkyBook\\BulkyBook.csproj",
+        "projectUniqueName": "C:\\Users\\cutie\\Git\\source\\DotNet-MVC-repos\\DotNet-MVC\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
+        "projectName": "BulkyBook.DataAccess",
+        "projectPath": "C:\\Users\\cutie\\Git\\source\\DotNet-MVC-repos\\DotNet-MVC\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
         "packagesPath": "C:\\Users\\cutie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cutie\\Git\\source\\in-proccess\\BulkyBook\\obj\\",
+        "outputPath": "C:\\Users\\cutie\\Git\\source\\DotNet-MVC-repos\\DotNet-MVC\\BulkyBook.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cutie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\cutie\\Git\\source\\DotNet-MVC-repos\\DotNet-MVC\\BulkyBook.Models\\BulkyBook.Models.csproj": {
+                "projectPath": "C:\\Users\\cutie\\Git\\source\\DotNet-MVC-repos\\DotNet-MVC\\BulkyBook.Models\\BulkyBook.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNet.Identity.AspNetCoreCompat": {
+              "target": "Package",
+              "version": "[0.3.4, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.17.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cutie\\Git\\source\\DotNet-MVC-repos\\DotNet-MVC\\BulkyBook.Models\\BulkyBook.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cutie\\Git\\source\\DotNet-MVC-repos\\DotNet-MVC\\BulkyBook.Models\\BulkyBook.Models.csproj",
+        "projectName": "BulkyBook.Models",
+        "projectPath": "C:\\Users\\cutie\\Git\\source\\DotNet-MVC-repos\\DotNet-MVC\\BulkyBook.Models\\BulkyBook.Models.csproj",
+        "packagesPath": "C:\\Users\\cutie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cutie\\Git\\source\\DotNet-MVC-repos\\DotNet-MVC\\BulkyBook.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cutie\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,27 +124,184 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cutie\\Git\\source\\DotNet-MVC-repos\\DotNet-MVC\\BulkyBook.Utility\\BulkyBook.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cutie\\Git\\source\\DotNet-MVC-repos\\DotNet-MVC\\BulkyBook.Utility\\BulkyBook.Utility.csproj",
+        "projectName": "BulkyBook.Utility",
+        "projectPath": "C:\\Users\\cutie\\Git\\source\\DotNet-MVC-repos\\DotNet-MVC\\BulkyBook.Utility\\BulkyBook.Utility.csproj",
+        "packagesPath": "C:\\Users\\cutie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cutie\\Git\\source\\DotNet-MVC-repos\\DotNet-MVC\\BulkyBook.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cutie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cutie\\Git\\source\\DotNet-MVC-repos\\DotNet-MVC\\BulkyBook\\BulkyBook.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cutie\\Git\\source\\DotNet-MVC-repos\\DotNet-MVC\\BulkyBook\\BulkyBook.csproj",
+        "projectName": "BulkyBook",
+        "projectPath": "C:\\Users\\cutie\\Git\\source\\DotNet-MVC-repos\\DotNet-MVC\\BulkyBook\\BulkyBook.csproj",
+        "packagesPath": "C:\\Users\\cutie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cutie\\Git\\source\\DotNet-MVC-repos\\DotNet-MVC\\BulkyBook\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cutie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\cutie\\Git\\source\\DotNet-MVC-repos\\DotNet-MVC\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\cutie\\Git\\source\\DotNet-MVC-repos\\DotNet-MVC\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj"
+              },
+              "C:\\Users\\cutie\\Git\\source\\DotNet-MVC-repos\\DotNet-MVC\\BulkyBook.Utility\\BulkyBook.Utility.csproj": {
+                "projectPath": "C:\\Users\\cutie\\Git\\source\\DotNet-MVC-repos\\DotNet-MVC\\BulkyBook.Utility\\BulkyBook.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[6.0.3, )"
             },
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.0-preview.2.22153.1, )"
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[6.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[6.0.5, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.2, )"
+              "version": "[6.0.5, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[39.116.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
             }
           },
           "imports": [
@@ -81,7 +322,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using BulkyBook.Data;
+using BulkyBook.DataAcess;
 using BulkyBook.Models;
 
 namespace BulkyBook.Controllers
